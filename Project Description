@@ -7,3 +7,10 @@ Further processing of the coefficient values must be applied to extract the imag
 we propose an algorithm to implement feature extraction technique using the 2D-DWT and the extracted coefficients are 
 used to represent the image for classification of narrow and broad weed. Results obtained suggest that the extracted 2D-DWT
 coefficients can uniquely represents the two different weed type.
+
+References:
+•	S. U. R. F. (SURF),“Herbet bay, andreas ess, tinne tuytelaars, luc van gool”, Elsevier preprint, 2008. 
+•	University of Koblenz-Landau, Tech. Rep., 2009. 
+•	 Wikipedia,“Feature detection Wikipedia, the free encyclopedia”, 2011. 
+•	 Jacob Toft Pedersen,"Study group SURF: Feature detection & description".
+
