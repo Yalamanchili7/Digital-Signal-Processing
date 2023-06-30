@@ -1,0 +1,85 @@
+
+
+
+•	Find the cluster of objects in a single pic.
+•	Find the picture of an image in the cluster.
+•	Match both pictures using matlab
+•	Find the common points and detect the image
+
+
+
+FLOW CHART FOR THE PROCESS
+
+ 
+
+
+FUNCTIONS USED
+There are several functions for manupaliting, editing, and changing a picture in MATLAB some of them are 
+•	imread
+•	imshow
+•	rgb2gray
+•	detectSURFFeatures
+•	extractFeatures
+•	estimateGeometricTransform
+
+•	showMatchedFeatures
+
+•	showMatchedFeatures
+
+•	selectStrongest
+
+•	transformPointsForward
+
+•	line
+
+•	size
+
+
+THINGS IN THE CLUSTER:-
+
+•	Bottle
+
+•	Comb
+
+•	Shoe
+
+•	Watch
+
+•	Phone
+
+
+
+
+
+
+PROCESS OF SIMULATION AND RESULTS:-
+
+
+Process of simulation
+•	 Detection 
+•	Description 
+•	Matching
+
+
+Detection:-
+
+Automatically identify interesting features, interest points this must be done robustly. The same feature should always be detected regardless of viewpoint.
+
+
+Description:-
+
+Each interest point should have a unique description that does not depend on the features scale and rotation.
+
+
+
+Matching:-
+
+The input image, determine which objects it contains, and possibly a transformation of the object, based on predetermined interest points. 
+In this paper, we are use SURF algorithm to detect features because of it should provide better results, faster than SIFT algorithm.
+SURF uses a hessian based blob detector to find interest points. The determinant of a hessian matrix expresses the extent of the response 
+and is an expression of the local change around the area.
+
+  
+
+
+
