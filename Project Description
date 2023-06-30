@@ -1,0 +1,9 @@
+The purpose of feature extraction technique in image processing is to represent the image in its compact and unique form 
+of single values or matrix vector. Low level feature extraction involves automatic extraction of features from an image 
+without doing any processing method. In this paper, we consider the use of high level feature extraction technique to 
+investigate the characteristic of narrow and broad weed by implementing the 2 dimensional discrete wavelet transform (2D-DWT) 
+as the processing method.Most transformation techniques produce coefficient values with the same size as the original image. 
+Further processing of the coefficient values must be applied to extract the image feature vectors. In this paper, 
+we propose an algorithm to implement feature extraction technique using the 2D-DWT and the extracted coefficients are 
+used to represent the image for classification of narrow and broad weed. Results obtained suggest that the extracted 2D-DWT
+coefficients can uniquely represents the two different weed type.
